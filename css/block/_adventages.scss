@@ -1,0 +1,54 @@
+.adventages {
+    background: #222224;
+    padding-bottom: 87px;
+
+    &-ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.adventages-li {
+    display: flex;
+    flex-direction: column;
+    width: $mini-width;
+    height: 134px;
+    align-items: center;
+    margin-top: 103px;
+}
+
+.adventages-li-subtitle, .adventages-li-subtitle-2, .adventages-li-subtitle-3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 28px 0 18px 0;
+}
+
+.advanteges-li-description {
+    font-weight: 300;
+    @include small-text ();
+    text-align: center;
+    color: #FBFBFB;
+    width: $mini-width;
+    height: 34px;
+}
+
+.adventages-li-subtitle-2 {
+    margin-top: 19px;
+}
+
+.adventages-li-subtitle-3 {
+    margin-top: 25px;
+}
+
+.adventages-img-1 {
+    fill: $main-rose;
+}
+
+.adventages-img-2 {
+    fill: $main-rose;
+}
+
+.adventages-img-3 {
+    fill: $main-rose;
+}

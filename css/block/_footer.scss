@@ -1,0 +1,36 @@
+.footer {
+    background: #222224;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer-rights {
+    @include medium-text ();
+    color: #FBFBFB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.brands {
+    display: flex;
+}
+
+.brands-face, .brands-inst, .brands-pint, .brands-twit {
+    background-color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+    margin-top: 24px;
+}
+
+.brands-face:hover, .brands-inst:hover, .brands-pint:hover, .brands-twit:hover {
+    background-color: $main-rose;
+    fill: #FFFFFF;
+}
+
+.background {
+    margin: 25% 25% 25% 25%;
+}

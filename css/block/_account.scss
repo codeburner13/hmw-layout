@@ -1,0 +1,125 @@
+
+.account {
+    padding: 64px 0 96px 0;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.account-form-name {
+    font-weight: 300;
+    @include medium-text ();
+    color: $main-black;
+}
+
+.account-field {
+    width: $mini-width;
+    height: 45px;
+    padding: 19px 16px;
+    border: solid 1px #A4A4A4;
+    margin-top: 20px;
+
+    &::placeholder {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #B1B1B1;
+    }
+}
+
+.account-radio {
+    margin: 32px 0;
+}
+
+.account-radio input + label:not(:last-child) {
+    margin-right: 20px;
+}
+
+.account-radio-1 {
+    margin-right: 10px;
+    transform:scale(1.4);
+    opacity:0.9;
+    border: 1px solid #A4A4A4;
+}
+
+.account-radio-2 {
+    margin-right: 10px;
+    transform:scale(1.4);
+    opacity:0.9;
+    border: 1px solid #A4A4A4;
+}
+
+.account-form-login {
+    font-weight: 300;
+    @include medium-text ();
+    color: $main-black;
+}
+
+.account-password-rules {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 14px;
+    width: 359px;
+}
+
+.account-button-join {
+    margin-top: 40px;
+    padding: 16px 28px;
+    border: none;
+    background-color: $main-rose;
+    color: #FFFFFF;
+    font-weight: normal;
+    @include small-text ();
+    fill: white;
+
+    &:hover {
+        color: #EF5B70;
+        background-color: white;
+        border: 1px solid #B1B1B1;
+        fill: #EF5B70;
+    }    
+}
+
+.account-button-strelka {
+    margin-left: 20px;
+}
+
+.account-offers {
+    margin-left: 128px;
+
+    &-header {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 22px;
+    }    
+}
+
+.account-offers-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.account-offers-ul {
+    list-style: none;
+}
+
+.account-offers-li {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.account-offers-li-galochka {
+    margin-right: 25px;
+}
