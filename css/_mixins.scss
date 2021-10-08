@@ -1,0 +1,10 @@
+/*примеси*/
+@mixin small-text () {
+    font-size: $small-font;
+    line-height: $small-line;
+}
+
+@mixin medium-text () {
+    font-size: $medium-font;
+    line-height: $medium-line;
+}

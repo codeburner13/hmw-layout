@@ -1,0 +1,42 @@
+.arrivals {
+    height: 148px;
+    background-color: #F8F3F4;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.arrivals-links {
+    display: inline;
+    text-decoration: none;
+    margin-top: 65px;
+}
+
+.sweet-home {
+    text-decoration: none;
+    color: #636363;
+}
+
+.for-men {
+    text-decoration: none;
+    color: #636363;;
+}
+
+.new-arrivals {
+    text-decoration: none;
+    color: #636363;;
+}
+
+.new-arrivals:visited, .new-arrivals:focus, .new-arrivals:hover {
+    color: $main-rose;
+}
+
+.arrivals-name {
+    font-size: 24px;
+    line-height: 29px;
+    color: $main-rose;
+    margin-top: 59px;
+}

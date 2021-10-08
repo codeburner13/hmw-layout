@@ -1,0 +1,92 @@
+.feedback {
+    background-image: url(../img/fon_feedback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-wrap {
+        display: flex;
+    }
+}
+
+.feedback-girl {
+    width: $mini-width;
+    height: 225px;
+    margin-top: 97px;
+}
+
+.photo-girl {
+    margin-left: 125px;
+    border-radius: 50px;
+    margin-bottom: 35px;
+}
+
+.feedback-girl-words {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe {
+    width: 356px;
+    display: flex;
+}
+
+.subscribe-field {
+    padding: 20px;
+    width: 255px;
+    border-radius: 27px 0 0 27px;
+    border: none;
+    background-color: #E1E1E1;
+    color: #222224;
+    
+    &:hover {
+        background-color: #E9E9E9;
+    }
+}
+
+.subscribe-field::placeholder {
+    color: #222224;
+    opacity: 0.67;
+    @include small-text ();
+}
+
+.subscribe-button {
+    padding: 20px;
+    border-radius: 0 27px 27px 0;
+    border: none;
+    background-color: $main-rose;
+    color: #FFFFFF;
+    font-weight: normal;
+    @include small-text ();
+
+    &:hover {
+        background-color: hsl(352, 61%, 54%);
+    }
+}
+
+.feedback-news{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 320px;
+}
+
+.feedback-subscribe {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+
+.feedback-promotion {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+
+.feedback-cursive {
+    font-style: italic;
+}

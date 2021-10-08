@@ -1,0 +1,37 @@
+/*шапка*/
+.header {
+    background: $main-black;
+    padding: 18px 0;
+    color: white;
+
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    text-decoration: none;
+    color: transparent;
+    margin-right: 41px;
+}
+
+.search, .menu {
+    background-color: transparent;
+    border: none;
+}
+
+.registration, .basket {
+    text-decoration: none;
+    color: transparent;
+}
+
+.registration {
+    margin: 0 33px;
+}

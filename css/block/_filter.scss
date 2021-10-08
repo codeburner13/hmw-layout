@@ -1,0 +1,36 @@
+.filter {
+    display: flex;
+
+    &-filter {
+        width: $mini-width;
+        height: 17px;
+        margin-bottom: 65px;
+        padding: 51px 0 0 16px;
+        font-weight: 600;
+        @include small-text ();
+        color: #000000;
+    }    
+
+    &-menu {
+        width: 15px;
+        height: 10px;
+        margin-left: 11px;
+    }
+}
+
+.filter-sorting {
+    width: 400px;
+    padding-left: 30px;
+    height: 17px;
+    padding: 51px 0 0 30px;
+}
+
+.filter-vektor {
+    margin-left: 10px;
+    margin-right: 28px;
+}
+
+.filter-words {
+    color: #6F6E6E;
+    @include small-text ();
+}

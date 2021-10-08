@@ -1,0 +1,97 @@
+@import "_var.scss";
+
+@import "_mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: $desktop-wrap;
+    margin: 0 auto;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/*шапка*/
+@import "block/header";
+
+/*промо*/
+@import "block/promo";
+
+/*категории*/
+@import "block/categories";
+
+/*товары дня*/
+@import "block/feauture";
+
+/*преимущества*/
+@import "block/adventages";
+
+/*фидбек*/
+@import "block/feedback";
+
+/*футер*/
+@import "block/footer";
+
+/*новые поступления*/
+@import "block/arrivals";
+
+/*фильтр*/
+@import "block/filter";
+
+/*пагинация*/
+@import "block/pagination";
+
+/*регистрация*/
+@import "block/account";
+
+/*КОРЗИНКА*/
+@import "block/basket";
+
+/*адрес отправки*/
+@import "block/adress";
+
+.preview {
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+
+    &-btn {
+        padding: 13px 17px;
+        border: none;
+    }
+
+    &:hover {
+        fill: $main-rose;
+    }
+}
+
+.preview-img {
+    width: 597px;
+    height: 724px;
+}
+
+.about-wrap {
+    margin-top: -64px;
+    border: 1px solid #EAEAEA;
+}
+
+.add-link {
+    border: 1px solid #FF6A6A;
+    padding: 15px 57px 14px 50px;
+    text-decoration: none;
+    color: #F26376;
+    margin: 64px 0 79px 0;
+}
+
+.add-link-img {
+    margin-right: 23px;
+}
