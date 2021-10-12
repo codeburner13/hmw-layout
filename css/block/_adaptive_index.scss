@@ -1,0 +1,118 @@
+
+@media (max-width: 1200px)  {
+    .wrapper {
+      width: 735px;
+    }
+  
+    .categories-card--women, .categories-card--men, .categories-card--kids {
+      width: 232px;
+      height: 168px;
+    }
+  
+    .categories-card--accesories {
+      min-height: 116px;
+    }
+  
+  
+    .promo-wrap {
+      height: 367px;
+      background-size: contain;
+      background-position-x: -108px;
+    }
+  
+    .promo-name {
+      width: 311px;
+    }
+  
+    .adventages-ul {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feedback-wrap {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feedback-news {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+      width: 380px;
+  
+    }
+   
+    .registration {
+      display: none;
+    }
+  
+    .basket {
+      display: none;
+    }
+  
+    .promo {
+      height: 363px;
+      width: 100%;
+    }
+  
+    .promo-wrap {
+      background-image: none;
+    }
+  
+    .promo-name {
+      font-weight: 900;
+      line-height: 30px;
+        font-size: 38px;
+      margin-right: 0;
+  
+      &--small {
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  
+    .categories {
+      padding: 32px 0;
+    }
+  
+    .categories-card {
+      width: 343px;
+      margin-top: 32px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .adventeges-li {
+      width: 347px;
+    }
+  
+    .categories-card--accesories {
+      height: 111px;
+    }
+  
+    .feauture-heading {
+      margin-top: 32px;
+    }
+  
+    .footer-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .brands {order: 1;}
+  
+    .footer-text {order: 2;}
+  
+    .brands {
+      margin-top: 20px;
+    }
+    
+  }
