@@ -1,0 +1,30 @@
+.preview {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 64px;
+
+    &-btn {
+        padding: 13px 17px;
+        border: none;
+        position: absolute;
+
+        &:hover {
+            fill: $main-rose;
+        }
+
+        &:active {
+            background-color: rgb(87, 85, 85);
+        }
+
+        &-left {
+            left: 5px;
+        }
+        
+        &-right {
+            right: 5px;
+        }
+    }
+}

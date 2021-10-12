@@ -1,0 +1,114 @@
+.about {
+    margin-top: -64px;
+
+    &-wrap {
+        border: 1px solid #EAEAEA;
+        background-color: #ffff;
+        position: relative;
+    }
+}
+
+.about-name {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-bottom: 12px;
+    margin-top: 64px;
+}
+
+.about-hr {
+    width: 63px;
+    height: 3px;
+    background: #EF5B70;
+    border: none;
+    margin-left: 245px;
+    margin-top: 15px;
+}
+
+.about-header {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.about-p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5E5E;
+    margin-top: 30px;
+}
+
+.about-price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    padding-bottom: 65px;
+    margin-top: 32px;
+}
+
+.hr {
+    margin-top: 70px;
+    width: 640px;
+    margin-left: -40px;
+    color: #EAEAEA;
+    opacity: 0.2;
+    height: 1px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choose-menu {
+    margin-right: 9px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.choose-vektor {
+    margin-right: 23px;
+    margin-bottom: 1px;
+}
+
+.add-btn {
+    margin: 49px 465px 65px 465px;
+}
+
+.add-link {
+    border: 1px solid #FF6A6A;
+    text-decoration: none;
+    color: #F26376;
+    background-color: white;
+    fill: #F26376;
+    display: flex;
+
+    &:hover {
+        color: white;
+        background-color: #EF5B70;
+        border: 1px solid #EF5B70;
+        fill: white;
+    } 
+}
+
+.add-cart {
+    margin: 18px 57px 16px 23px;
+}
+
+.about-text {
+    text-align: center;
+    padding: 0 292px 0 292px;
+}
+
+.add-link-img {
+    margin: 14px 0 0 24px;
+}
+
+
+.cards {
+    padding: 130px 0;
+}

@@ -17,6 +17,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+
 /*шапка*/
 @import "block/header";
 
@@ -56,42 +57,6 @@ body {
 /*адрес отправки*/
 @import "block/adress";
 
-.preview {
-    background-color: gray;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 64px;
+@import "block/about";
 
-    &-btn {
-        padding: 13px 17px;
-        border: none;
-    }
-
-    &:hover {
-        fill: $main-rose;
-    }
-}
-
-.preview-img {
-    width: 597px;
-    height: 724px;
-}
-
-.about-wrap {
-    margin-top: -64px;
-    border: 1px solid #EAEAEA;
-}
-
-.add-link {
-    border: 1px solid #FF6A6A;
-    padding: 15px 57px 14px 50px;
-    text-decoration: none;
-    color: #F26376;
-    margin: 64px 0 79px 0;
-}
-
-.add-link-img {
-    margin-right: 23px;
-}
+@import "block/preview";

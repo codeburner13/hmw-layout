@@ -35,3 +35,15 @@
 .registration {
     margin: 0 33px;
 }
+
+/* 5-е домашнее задание, 2-ой пункт*/
+
+.dance-main {
+    transition: 0.5s;
+    /*transition: 1s; - для более плавного поворота на 360°, так симпатичнее*/
+}
+
+.dance-main:hover {
+    transform: rotate(180deg);
+    /*transform: rotate(360deg); - а вот и эти 360°*/
+}
