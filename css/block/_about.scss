@@ -8,6 +8,10 @@
     }
 }
 
+.about-wrap {
+ align-items: center;
+}
+
 .about-name {
     font-weight: 300;
     font-size: 14px;
@@ -31,6 +35,12 @@
     font-size: 18px;
     line-height: 22px;
     color: #4D4D4D;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 65px 0;
 }
 
 .about-p {
@@ -73,10 +83,6 @@
 .choose-vektor {
     margin-right: 23px;
     margin-bottom: 1px;
-}
-
-.add-btn {
-    margin: 49px 465px 65px 465px;
 }
 
 .add-link {

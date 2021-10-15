@@ -1,0 +1,95 @@
+@media (max-width: 1200px)  {
+    .wrapper {
+        width: 735px;
+    }
+
+    .card-hidden {
+        display: none;
+    }
+
+    .preview {
+        height: 624px;
+    }
+
+    .preview-img {
+        width: 466px;
+        height: 565px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about-wrap {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+        width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .choose {
+        padding-left: 35px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 380px;
+    }
+
+    .card-hidden {
+        display: none;
+    }
+
+    .preview-img {
+        width: 374px;
+        height: 454px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about-wrap {
+        width: 100%;
+    }
+
+    .about-text {
+        padding: 0;
+        width: 326px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hr {
+        width: 175px;
+        margin-left: 80px;
+    }
+
+    .add-btn {
+        padding: 65px 0 65px 0;
+    }
+
+    .choose {
+    margin-top: -14px;
+    }
+
+    .cards {
+        padding: 64px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-hr {
+        margin-left: 131px;
+    }
+
+    .feauture-li {
+        margin-top: 0;
+    }
+}

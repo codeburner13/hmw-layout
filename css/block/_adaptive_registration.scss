@@ -1,0 +1,44 @@
+@media (max-width: 1200px)  {
+    .wrapper {
+        width: 735px;
+    }
+
+    .account-offers-text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .account-offers-li {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .account-offers {
+        margin-left: 0;
+        width: 354px;
+    }
+
+    .account-offers-li-galochka {
+        margin-right: 22px;
+    }
+
+    .free-hugs {
+        text-align: end;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 380px;
+    }
+
+    .account-wrap {
+        flex-wrap: wrap;
+    }
+
+    .account-offers {
+        padding-top: 40px;
+    }
+}
