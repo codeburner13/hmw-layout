@@ -56,7 +56,7 @@
 
 .basketcart-number {
     margin-left: 24px;
-    text-align: end;
+    text-align: center;
     font-family: Lato;
     font-size: 18px;
     color: #656565;
@@ -85,7 +85,7 @@
     color: #000000;
     text-decoration: none;
     padding: 17px 41px 16px 39px;
-
+    text-transform: uppercase;
     &:hover {
         background-color: #EF5B70;
         color: white;

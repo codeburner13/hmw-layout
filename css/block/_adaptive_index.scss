@@ -44,7 +44,6 @@
   @media (max-width: 480px) {
     .wrapper {
       width: 380px;
-  
     }
    
     .registration {
@@ -95,7 +94,17 @@
     .categories-card--accesories {
       height: 111px;
     }
-  
+    
+    .feauture-ul {
+      margin-left: 20px;
+      margin-right: 0;
+    }
+
+    .feauture-li {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
     .feauture-heading {
       margin-top: 32px;
     }

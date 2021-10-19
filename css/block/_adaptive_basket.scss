@@ -1,0 +1,134 @@
+@media (max-width: 1200px)  {
+    .wrapper {
+        width: 735px;
+    }
+
+    .basketcart-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .basketcart-man {
+        width: 734px;
+    }
+
+    .basketcart-krestik {
+        margin: 28px 0 0 200px;
+    }
+
+    .basketcart-buttons {
+        margin-top: 0;
+    }
+
+    .adress {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 64px;
+    }
+
+    .adress-form {
+        margin-right: 7.5px;
+    }
+
+    .total {
+        margin-top: 38px;
+        margin-left: 7.5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 380px;
+    }
+
+    .arrivals-name {
+        margin-top: 50px;
+    }
+
+    .basketcart {
+        padding-top: 39px;
+    }
+
+    .basketcart-man {
+        width: 358px;
+        height: 188px;
+    }
+
+    .basketcart-img {
+        width: 144px;
+        height: 188px;
+    }
+
+    .basketcart-header {
+        width: 140px;
+        margin-bottom: 23px;
+    }
+
+    .basketcart-left {
+        width: 0;
+        height: 0;
+    }
+
+    .basketcart-right {
+        margin-left: 163px;
+    }
+
+    .basketcart-text {
+        margin-top: 13.5px;
+    }
+
+    .basketcart-link {
+        font-size: 16px;
+        line-height: 19px;
+        width: 143px;
+    }
+
+    .basketcart-options {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 3px;
+    }
+
+    .basketcart-number {
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 15px;
+        width: 24px;
+        text-align: center;
+    }
+
+    .basketcart-krestik {
+        margin: 13px 0 0 33px;
+    }
+
+    .cart-krestik {
+        width: 10px;
+        height: 10px;
+    }
+
+    .basket-but {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #575757;
+        padding: 18px 9.5px;
+        text-transform: none;
+    }
+
+    .adress {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 48px;
+        align-items: center;
+    }
+
+    .adress-form {
+        margin-right: 0;
+    }
+
+    .total {
+        margin-left: 0;
+    }
+}
